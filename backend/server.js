@@ -11,6 +11,10 @@ await connectDB();
 const app = express();
 app.use(cors());
 app.use(express.json());
+app.use(cors({
+  origin: 'http://localhost:5173', // Your Vite frontend URL
+  credentials: true,
+}));
 
 app.get('/health', (_, res) => res.json({ ok: true }));
 app.use('/api/chat', chatRoutes);
