@@ -1,6 +1,6 @@
-import Sidebar from './Sidebar';
-import MessageList from '../MessageList.jsx';
-import UserInput from './UserInput';
+import Sidebar from './Sidebar.jsx';
+import MessageList from './MessageList.jsx';
+import UserInput from './UserInput.jsx';
 
 const ChatWindow = () => {
   return (

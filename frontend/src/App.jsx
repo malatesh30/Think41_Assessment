@@ -1,5 +1,5 @@
 import { ChatProvider } from './context/ChatContext';
-import ChatWindow from '../components/ChatWindow';
+import ChatWindow from "./components/ChatWindow";
 
 const App = () => (
   <ChatProvider>
